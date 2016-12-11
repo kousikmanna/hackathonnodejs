@@ -1,0 +1,10 @@
+<div class="profile" ng-app="newApp" ng-controller="newAppCtrl">
+    <div ng-repeat="user in users" class="user">
+      <p>Name: {{user['-DisplayName']}}</p> 
+      <p>Location: {{user['-Location']}}</p>
+      <p>Address: {{user['-Age']}}</p>
+      <p>UpVotes: {{user['-UpVotes']}}</p> 
+      <button class="btn btn-primary btn-md" ng-click="getRelatedProfile(user)">Get Related Profile</button>
+      <div class="releted-profile-detail"></div>
+    </div>
+</div>

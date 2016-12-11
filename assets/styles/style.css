@@ -1,0 +1,11 @@
+.posts, .profile{
+	margin: 22px;
+	background: #e8e0e0;
+}
+.post-detail,.user{
+	margin: 10px;
+	background: #a1a1c5;;
+}
+.user{
+   padding: 10px;
+}
